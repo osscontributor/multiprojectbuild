@@ -12,6 +12,6 @@ class MathFunctionalSpec extends GebSpec {
         go '/multiply/42'
 
         then:
-        $().text() == 'The result is 84'
+        $().text() == 'The result is 126'
     }
 }
