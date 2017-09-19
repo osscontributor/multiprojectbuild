@@ -1,8 +1,8 @@
 package demo
 
-import grails.test.mixin.integration.Integration
 
 import geb.spock.*
+import grails.testing.mixin.integration.Integration
 
 @Integration
 class MathFunctionalSpec extends GebSpec {
